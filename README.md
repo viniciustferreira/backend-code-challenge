@@ -7,11 +7,11 @@
 
 <h2>Solução dos problemas:</h2>
   <ul>
-  <li>- Para a construção das APIS utilizei o Grape (https://github.com/ruby-grape/grape), que desloca a criação das APIs do controller. </li>
-  <li>- Para resolução efetiva do problema do modelo dos dados, achei que se encaixava muito bem com uma implementação de grafos, já com o calculo do caminho mínimo de Dijkstra, para depois calcular o custo. Para isso, usei a gem RGL (https://github.com/monora/rgl). </li>
-  <li>- Usei índices nas colunas das tabelas pra resolver o problemas de performance no acesso ao banco. </li>
-  <li>- Também usei apenas uma tabela pois não vi a necessidade de modelar os dados de outra forma. </li>
-  <li>- Usei RSpec para os testes. </li>
+  <li> Para a construção das APIS utilizei o Grape (https://github.com/ruby-grape/grape), que desloca a criação das APIs do controller. </li>
+  <li> Para resolução efetiva do problema do modelo dos dados, achei que se encaixava muito bem com uma implementação de grafos, já com o calculo do caminho mínimo de Dijkstra, para depois calcular o custo. Para isso, usei a gem RGL (https://github.com/monora/rgl). </li>
+  <li> Usei índices nas colunas das tabelas pra resolver o problemas de performance no acesso ao banco. </li>
+  <li> Também usei apenas uma tabela pois não vi a necessidade de modelar os dados de outra forma. </li>
+  <li> Usei RSpec para os testes. </li>
   </ul>
 
 <h2>Acesso:</h2>
